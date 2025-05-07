@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-[#f4efe6] text-[#3e2f1c]">
+
+  <!-- Header -->
+  <header class="bg-[#c2b280] py-4 px-6 flex justify-between items-center sticky top-0 z-50 border-b border-[#8c7853] shadow-md">
+    <h1 class="text-2xl font-extrabold text-[#5c432a]">Meu Portfolio</h1>
+    <nav class="space-x-4">
+      <a href="../index.html" class="hover:text-[#5c432a]">Home</a>
+      <a href="../pages/projects.html" class="hover:text-[#5c432a] font-bold">Projetos</a>
+      <a href="../pages/qualifications.html" class="hover:text-[#5c432a]">Qualificações</a>
+      <a href="../pages/publications.html" class="text-[#5c432a]">Publicações</a>
+    </nav>
+  </header>
+
+    <!-- Seção de Projetos -->
+  <section class="py-20 px-6 bg-[#fdfaf5]">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-12 text-[#3e2f1c]">Projetos de Programação</h2>
+  
+      <div class="grid md:grid-cols-3 gap-8">
+  
+        <!-- Projeto 1: Relogio Rotina -->
+        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
+          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Relógio Rotina</h3>
+          <p class="text-[#5c432a] mb-4">
+            Projeto front-end para ajudar na organização das tarefas diárias com base em cores.
+          </p>
+          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
+            <li>Relógio e tabela de atividades</li>
+            <li>Mini player do youtube para ouvir enquanto estuda</li>
+            <li>Visualmente simples</li>
+          </ul>
+          <a href="https://github.com/seuusuario/flask-ssh-panel" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Ver no GitHub →</a>
+        </div>
+  
+        <!-- Projeto 2: Gerador de Senhas Seguras -->
+        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
+          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Gerador de Senhas Fortes</h3>
+          <p class="text-[#5c432a] mb-4">
+            Aplicação full stack com Flask + Tailwind para gerar senhas seguras. Acompanhada de um e-book educativo sobre segurança digital e boas práticas.
+          </p>
+          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
+            <li>Customização de complexidade da senha</li>
+            <li>Design minimalista e acessível</li>
+            <li>Texto educacional sobre riscos reais</li>
+          </ul>
+          <a href="https://github.com/TheEddu/PasswordGenerator" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Ver no GitHub →</a>
+        </div>
+  
+        <!-- Projeto 3: SQL RPG -->
+        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
+          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Banco de Dados RPG</h3>
+          <p class="text-[#5c432a] mb-4">
+            Projeto didático para aprender SQL com tema de RPG. Criação de tabelas como Aventureiro, Guilda e Classe para simular relacionamentos reais e práticas de modelagem.
+          </p>
+          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
+            <li>Ideal para iniciantes em SQL</li>
+            <li>Mesmo conceito de aplicações reais</li>
+            <li>Expansível para consultas complexas</li>
+          </ul>
+          <a href="https://github.com/TheEddu/RPG_database" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Ver no GitHub →</a>
+        </div>
+
+        <!-- Projeto 4: SSH Panel -->
+        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
+          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">SSH Panel</h3>
+          <p class="text-[#5c432a] mb-4">
+            Projeto backend que permite conexão SSH a máquinas Linux para demonstrar automações e comandos remotos. Ideal para labs, aulas e simulações.
+          </p>
+          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
+            <li>Conecta a diferentes distros via VirtualBox</li>
+            <li>Organizado para escalabilidade</li>
+          </ul>
+          <a href="https://github.com/TheEddu/ssh-panel" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Ver no GitHub →</a>
+        </div>
+
+        <!-- Projeto 5: Criptografia -->
+        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
+          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Criptografia</h3>
+          <p class="text-[#5c432a] mb-4">
+            Projeto de criptografia, desenvolvido para fins de estudo e demonstração de conceitos básicos de cifragem/decifragem.
+          </p>
+          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
+            <li>Criptografia personalizavel</li>
+            <li>Design minimalista e acessível</li>
+          </ul>
+          <a href="https://github.com/TheEddu/Cryptography" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Ver no GitHub →</a>
+        </div>
+
+        <!-- Projeto 6: Login Page Vulneravel -->
+        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
+          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Login Page Vulneravel</h3>
+          <p class="text-[#5c432a] mb-4">
+            Uma página de Login que é intencionalemente vulnerável a SQL Injection, com a versão corrigida do código, apenas para demonstração de vulneravilidade e fins didáticos.
+          </p>
+          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
+            <li>Correção de vulnerabilidade de forma prática</li>
+            <li>Demonstração de vulnerabilidade</li>
+          </ul>
+          <a href="https://github.com/TheEddu/LoginPage-Vulnerable" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Ver no GitHub →</a>
+        </div>
+
+        <!-- Projeto 7: Passive Recon Script -->
+        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
+          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Passive Recon Script</h3>
+          <p class="text-[#5c432a] mb-4">
+            Script em Bash que permite a coleta de informações sobre um endereço IP ou domínio fornecido pelo usuário.
+          </p>
+          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
+            <li>Serve como um "acelerador" de ferramentas de recon.</li>
+            <li>O script executa uma série de comandos de rede para obter dados relevantes e salva os resultados em arquivos separados.</li>
+          </ul>
+          <a href="https://github.com/TheEddu/Passive-Recon-Script" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Ver no GitHub →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+  
+  <footer class="bg-[#c2b280] text-center text-sm text-[#3e2f1c] py-6 mt-12 border-t border-[#8c7853]">
+    <p>Contato: seuemail@example.com | LinkedIn: linkedin.com/in/seuperfil</p>
+    <p>&copy; 2025 Meu Portfólio. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
