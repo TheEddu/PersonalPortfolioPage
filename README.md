@@ -8,28 +8,30 @@ O objetivo deste portfólio é destacar minhas competências em **Cybersecurity*
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML** e **Tailwind**: Estrutura e estilização do site.
 - **GitHub Pages**: Hospedagem do portfólio.
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```plaintext
 PersonalPage/
 ├── index.html
+├── images/     
 ├── pages/              
-│   ├── projects.html   
+│   ├── experiences.html   
+│   ├── projects.html 
 │   ├── qualifications.html  
-│   ├── publications.html   
+│   ├── publications.html  
 └── README.md     
 ```
 
 ---
 
-## 🌟 Funcionalidades
+## Funcionalidades
 
 - **Seção de Apresentação**: Introdução sobre mim, minhas paixões e objetivos profissionais.
 - **Projetos**: Lista de projetos desenvolvidos, com links para repositórios e demonstrações.
@@ -39,13 +41,13 @@ PersonalPage/
 
 ---
 
-## 🚀 Como Visualizar o Portfólio
+## Como Visualizar o Portfólio
 
 Acesse diretamente a versão hospedada em: [Meu Portfólio](https://theeddu.github.io/PersonalPortfolioPage/)
 
 ---
 
-## 📞 Contato
+## Contato
 
 Se você deseja entrar em contato comigo, pode me encontrar nas seguintes plataformas:
 
@@ -54,4 +56,4 @@ Se você deseja entrar em contato comigo, pode me encontrar nas seguintes plataf
 
 ---
 
-Obrigado por visitar meu portfólio! 😊
+Obrigado por visitar meu portfólio!
