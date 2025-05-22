@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
         description: 'Estudante autodidata e leitor assíduo',
         profile: './images/profile.jpg',
         websites: {
-            'Meus Artigos': 'https://theeddu.github.io/CyberBlog/',
+            'Meus Artigos': 'https://theeddu.github.io/Cyber-Blog/',
             'Relatórios de Labs': 'https://theeddu.github.io/PortfolioLabs/'
         },
         socials: {
@@ -35,13 +35,13 @@ document.addEventListener('DOMContentLoaded', function () {
         // Name
         const name = document.createElement('h2');
         name.textContent = profileData.name || 'Não especificado';
-        name.className = 'text-2xl font-bold text-indigo-900 mb-1';
+        name.className = 'text-2xl font-bold text-white mb-1';
         card.appendChild(name);
 
         // Description
         const desc = document.createElement('p');
         desc.textContent = profileData.description || 'Não especificado';
-        desc.className = 'text-indigo-900 mb-2';
+        desc.className = 'text-white mb-2';
         card.appendChild(desc);
 
         // Websites
