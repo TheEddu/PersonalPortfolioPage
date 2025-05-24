@@ -5,29 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projetos</title>
   <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 <body class="bg-[#f4efe6] text-[#3e2f1c]">
 
-  <!-- Header -->
-  <header class="bg-[#c2b280] py-4 px-6 flex justify-between items-center sticky top-0 z-50 border-b border-[#8c7853] shadow-md">
-    <img src="../images/logo.png" class="rounded-full h-24 h-24" alt="logo">
-    <nav class="space-x-4">
-      <a href="../index.html" class="hover:text-[#5c432a]">Home</a>
-      <a href="../pages/projects.html" class="hover:text-[#5c432a] font-bold">Projetos</a>
-      <a href="../pages/qualifications.html" class="hover:text-[#5c432a]">Qualificações</a>
-      <a href="../pages/publications.html" class="hover:text-[#5c432a]">Publicações</a>
-      <a href="../pages/experiences.html" class="hover:text-[#5c432a]">Experiências</a>
-    </nav>
-  </header>
+  <div id="main-header"></div>
 
     <!-- Seção de Projetos -->
   <section class="py-20 px-6 bg-[#fdfaf5]">
     <div class="max-w-6xl mx-auto">
-      <h2 class="text-4xl font-bold text-center mb-12 text-[#3e2f1c]">Projetos de Programação</h2>
-  
+      <h2 class="text-4xl font-bold text-center mb-12 text-[#3e2f1c]">Projetos</h2>
+
       <div class="grid md:grid-cols-3 gap-8">
-  
         <!-- Projeto Relogio Rotina -->
         <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
           <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Relógio Rotina</h3>
@@ -141,15 +129,9 @@
   
   
   <!-- Footer -->
-  <footer class="bg-[#c2b280] text-center text-sm text-[#3e2f1c] py-6 mt-12 border-t border-[#8c7853]">
-    <p>Acesse meu </p>
-    <a class="text-blue-700" target="_blank" href="https://github.com/TheEddu">GitHub</a>
-    <br>
-    <a class="text-blue-700" target="_blank" href="https://www.linkedin.com/in/eduardo-s-b39896205/">Linkedin</a>
-    <br>
-    <a class="text-blue-700" target="_blank" href="https://tryhackme.com/p/TheEddu">TryHackMe</a>
-    <p>&copy; 2025 Meu Portfólio. Todos os direitos reservados.</p>
-  </footer>
+  <div id="main-footer"></div>
 
+  <script src="../scripts/header.js"></script>
+  <script src="../scripts/footer.js"></script>
 </body>
 </html>
