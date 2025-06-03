@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         profile: './images/profile.jpg',
         websites: {
             'Meus Artigos': 'https://theeddu.github.io/Cyber-Blog/',
-            'Relatórios de Labs': 'https://theeddu.github.io/PortfolioLabs/',
+            'Relatórios de Labs': 'https://theeddu.github.io/Portfolio-Labs/',
             'Conteúdo de Inglês': 'https://theeddu.github.io/UpgradingMind/'
         },
         socials: {
