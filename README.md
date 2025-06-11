@@ -21,6 +21,7 @@ O objetivo deste portfólio é destacar minhas competências em **Cybersecurity*
 PersonalPage/
 ├── index.html
 ├── images/     
+├── scripts/     
 ├── pages/              
 │   ├── experiences.html   
 │   ├── projects.html 
