@@ -1,0 +1,103 @@
+/* ===== Main e Seções ===== */
+.publications-main {
+  padding: 4rem 0;
+  background-color: var(--color-bg-primary);
+}
+
+.ebooks-section,
+.articles-section {
+  margin-bottom: 4rem;
+}
+
+/* ===== Lista de eBooks ===== */
+.ebooks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ebook-card {
+  background-color: white;
+  border-left: 4px solid var(--color-accent);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ebook-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.ebook-cover {
+  width: 96px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+}
+
+.ebook-info {
+  flex: 1;
+}
+
+.ebook-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.ebook-description {
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.ebook-link {
+  color: var(--color-accent);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.ebook-link:hover {
+  text-decoration: underline;
+  color: var(--color-accent-dark);
+}
+
+/* ===== Seção de Artigos ===== */
+.articles-text {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  color: var(--color-text-primary);
+}
+
+.articles-btn {
+  margin-bottom: 1rem;
+}
+
+.articles-note {
+  font-style: italic;
+  color: #6b5540;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 640px) {
+  .ebook-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ebook-cover {
+    width: 120px;
+    height: 160px;
+  }
+}

@@ -1,428 +1,274 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reconhecimentos</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="bg-[#f4efe6] text-[#3e2f1c]">
-    <div id="main-header"></div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qualificações e Certificações</title>
+  <link rel="stylesheet" href="../styles/style.css">  
+  <link rel="stylesheet" href="../styles/qualifications.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
-    <!-- Conteúdo -->
-    <main class="max-w-5xl mx-auto px-6 py-10">
-      <!-- Certificações e Cursos-->
-      <section class="mb-12">
-        <h2 class="text-3xl font-bold text-[#5c432a] mb-4">
-          Certificações e Cursos
-        </h2>
-        <ul class="space-y-4">
-          <li
-            class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-          >
-            <p class="text-xl font-semibold">AWS Cloud Practitioner</p>
-            <p class="text-sm text-[#5c432a]">
-              Emitido por Amazon Web Services - 2023
-            </p>
+  <div id="main-header"></div>
+
+  <!-- Conteúdo Principal -->
+  <main class="qualifications-main">
+    <div class="container">
+
+      <!-- Certificações e Cursos Principais -->
+      <section class="certifications-section">
+        <h2 class="section-title-large">Certificações e Cursos</h2>
+
+        <ul class="certifications-list">
+          <li class="certification-card">
+            <p class="certification-title">AWS Cloud Practitioner</p>
+            <p class="certification-issuer">Emitido por Amazon Web Services - 2023</p>
           </li>
-          <li
-            class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-          >
-            <p class="text-xl font-semibold">
-              Novo Pentest Profissional - DESEC
-            </p>
-            <p class="text-sm text-[#5c432a]">Finalizado em Abril de 2024</p>
+          <li class="certification-card">
+            <p class="certification-title">Novo Pentest Profissional - DESEC</p>
+            <p class="certification-issuer">Finalizado em Abril de 2024</p>
           </li>
-          <li
-            class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-          >
-            <p class="text-xl font-semibold">Responsive Web Design</p>
-            <p class="text-sm text-[#5c432a]">Finalizado em Março de 2024</p>
+          <li class="certification-card">
+            <p class="certification-title">Responsive Web Design</p>
+            <p class="certification-issuer">Finalizado em Março de 2024</p>
           </li>
         </ul>
       </section>
-      
-      <!-- Cursos -->
 
-      <section class="mb-12 ">
-        <h2 class="text-3xl font-bold text-[#5c432a] mb-6">
-          Certificados e Badges TryHackMe
-        </h2>
+      <!-- TryHackMe Badges -->
+      <section class="tryhackme-section">
+        <h2 class="section-title-medium">Certificados e Badges TryHackMe</h2>
 
-        <div class="mt-10 flex justify-center items-center">
+        <div class="tryhackme-badge-container">
           <iframe 
             src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1927649"
-            class="w-96 h-24"
+            class="tryhackme-iframe"
             loading="lazy" 
-            title="TryHackMe Badge">
+            title="TryHackMe Badges">
           </iframe>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
-            <div
-              class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-            >
-              <p class="text-lg font-semibold">Advent of Cyber 2024</p>
-              <p class="text-sm text-[#5c432a]">
-                Evento anual com desafios práticos de cibersegurança, focando em
-                investigação, análise de incidentes e defesa de sistemas em um
-                ambiente gamificado.
-              </p>
-            </div>
-            <div
-              class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-            >
-              <p class="text-lg font-semibold">Jr Penetration Tester</p>
-              <p class="text-sm text-[#5c432a]">
-                Trilha completa de pentest, cobrindo reconhecimento, enumeração,
-                exploração de vulnerabilidades e pós-exploração em ambientes
-                simulados.
-              </p>
-            </div>
-            <div
-              class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-            >
-              <p class="text-lg font-semibold">Web Fundamentals</p>
-              <p class="text-sm text-[#5c432a]">
-                Fundamentos de segurança web: análise de aplicações, identificação
-                de vulnerabilidades, ataques comuns (XSS, SQLi) e práticas de
-                defesa.
-              </p>
-            </div>
-            <div
-              class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-            >
-              <p class="text-lg font-semibold">Cyber Security 101</p>
-              <p class="text-sm text-[#5c432a]">
-                Introdução à cibersegurança, abordando princípios essenciais,
-                ameaças, boas práticas e conceitos fundamentais para iniciantes.
-              </p>
-            </div>
-            <div
-              class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-            >
-              <p class="text-lg font-semibold">Pre Security</p>
-              <p class="text-sm text-[#5c432a]">
-                Base para iniciantes: conceitos de segurança, redes, sistemas
-                operacionais e fundamentos de hacking ético.
-              </p>
-            </div>
-            <div
-              class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-            >
-              <p class="text-lg font-semibold">
-                Introduction to Security Engineering
-              </p>
-              <p class="text-sm text-[#5c432a]">
-                Princípios de engenharia de segurança, arquitetura de sistemas
-                seguros, modelagem de ameaças e controles técnicos.
-              </p>
-            </div>
-            <div
-              class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-            >
-              <p class="text-lg font-semibold">Security Awareness</p>
-              <p class="text-sm text-[#5c432a]">
-                Capacitação em cultura de segurança, identificação de riscos,
-                phishing, engenharia social e proteção de dados pessoais.
-              </p>
-            </div>
-            <div
-              class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-            >
-              <p class="text-lg font-semibold">Networking Nerd</p>
-              <p class="text-sm text-[#5c432a]">
-                Laboratórios práticos de redes: TCP/IP, roteamento, análise de
-                pacotes e configuração de serviços essenciais para segurança de
-                redes.
-              </p>
-            </div>
-            <div
-              class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-            >
-              <p class="text-lg font-semibold">Completing the Cyber</p>
-              <p class="text-sm text-[#5c432a]">
-                Certificação de conclusão de trilhas TryHackMe, demonstrando
-                domínio prático em múltiplas áreas de cibersegurança.
-              </p>
-            </div>
-            <div
-              class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-            >
-              <p class="text-lg font-semibold">Intro to Web Hacking</p>
-              <p class="text-sm text-[#5c432a]">
-                Introdução a técnicas de hacking web, exploração de
-                vulnerabilidades e análise de segurança em aplicações online.
-              </p>
-            </div>
-            <div
-              class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-            >
-              <p class="text-lg font-semibold">Network and System Security</p>
-              <p class="text-sm text-[#5c432a]">
-                Proteção de redes e sistemas, práticas de hardening, detecção de
-                ameaças e resposta a incidentes.
-              </p>
-            </div>
-            <div
-              class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-            >
-              <p class="text-lg font-semibold">Metasploitable</p>
-              <p class="text-sm text-[#5c432a]">
-                Laboratórios hands-on com a máquina Metasploitable, focando em
-                exploração de vulnerabilidades e uso do Metasploit Framework.
-              </p>
-            </div>
-            <div
-              class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-            >
-              <p class="text-lg font-semibold">Software Security</p>
-              <p class="text-sm text-[#5c432a]">
-                Segurança em desenvolvimento de software, identificação e
-                mitigação de falhas, e práticas de codificação segura.
-              </p>
-            </div>
+
+        <div class="tryhackme-grid">
+          <div class="tryhackme-card">
+            <p class="tryhackme-title">Advent of Cyber 2024</p>
+            <p class="tryhackme-description">
+              Evento anual com desafios práticos de cibersegurança, focando em investigação, análise de incidentes e defesa de sistemas em um ambiente gamificado.
+            </p>
+          </div>
+          <div class="tryhackme-card">
+            <p class="tryhackme-title">Jr Penetration Tester</p>
+            <p class="tryhackme-description">
+              Trilha completa de pentest, cobrindo reconhecimento, enumeração, exploração de vulnerabilidades e pós-exploração em ambientes simulados.
+            </p>
+          </div>
+          <div class="tryhackme-card">
+            <p class="tryhackme-title">Web Fundamentals</p>
+            <p class="tryhackme-description">
+              Fundamentos de segurança web: análise de aplicações, identificação de vulnerabilidades, ataques comuns (XSS, SQLi) e práticas de defesa.
+            </p>
+          </div>
+          <div class="tryhackme-card">
+            <p class="tryhackme-title">Cyber Security 101</p>
+            <p class="tryhackme-description">
+              Introdução à cibersegurança, abordando princípios essenciais, ameaças, boas práticas e conceitos fundamentais para iniciantes.
+            </p>
+          </div>
+          <div class="tryhackme-card">
+            <p class="tryhackme-title">Pre Security</p>
+            <p class="tryhackme-description">
+              Base para iniciantes: conceitos de segurança, redes, sistemas operacionais e fundamentos de hacking ético.
+            </p>
+          </div>
+          <div class="tryhackme-card">
+            <p class="tryhackme-title">Introduction to Security Engineering</p>
+            <p class="tryhackme-description">
+              Princípios de engenharia de segurança, arquitetura de sistemas seguros, modelagem de ameaças e controles técnicos.
+            </p>
+          </div>
+          <div class="tryhackme-card">
+            <p class="tryhackme-title">Security Awareness</p>
+            <p class="tryhackme-description">
+              Capacitação em cultura de segurança, identificação de riscos, phishing, engenharia social e proteção de dados pessoais.
+            </p>
+          </div>
+          <div class="tryhackme-card">
+            <p class="tryhackme-title">Networking Nerd</p>
+            <p class="tryhackme-description">
+              Laboratórios práticos de redes: TCP/IP, roteamento, análise de pacotes e configuração de serviços essenciais para segurança de redes.
+            </p>
+          </div>
+          <div class="tryhackme-card">
+            <p class="tryhackme-title">Completing the Cyber</p>
+            <p class="tryhackme-description">
+              Certificação de conclusão de trilhas TryHackMe, demonstrando domínio prático em múltiplas áreas de cibersegurança.
+            </p>
+          </div>
+          <div class="tryhackme-card">
+            <p class="tryhackme-title">Intro to Web Hacking</p>
+            <p class="tryhackme-description">
+              Introdução a técnicas de hacking web, exploração de vulnerabilidades e análise de segurança em aplicações online.
+            </p>
+          </div>
+          <div class="tryhackme-card">
+            <p class="tryhackme-title">Network and System Security</p>
+            <p class="tryhackme-description">
+              Proteção de redes e sistemas, práticas de hardening, detecção de ameaças e resposta a incidentes.
+            </p>
+          </div>
+          <div class="tryhackme-card">
+            <p class="tryhackme-title">Metasploitable</p>
+            <p class="tryhackme-description">
+              Laboratórios hands-on com a máquina Metasploitable, focando em exploração de vulnerabilidades e uso do Metasploit Framework.
+            </p>
+          </div>
+          <div class="tryhackme-card">
+            <p class="tryhackme-title">Software Security</p>
+            <p class="tryhackme-description">
+              Segurança em desenvolvimento de software, identificação e mitigação de falhas, e práticas de codificação segura.
+            </p>
+          </div>
         </div>
       </section>
 
-      <section class="mb-12">
-        <h2 class="text-3xl font-bold text-[#5c432a] mb-6">Cursos SENAC</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
-          <div
-            class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-          >
-            <p class="text-lg font-semibold">Segurança em Servidores Linux</p>
-            <p class="text-sm text-[#5c432a]">
-              Preparação para proteger e gerenciar servidores Linux. Inclui a
-              instalação e configuração de segurança do sistema, além de
-              serviços como DHCP, DNS, SSH e Apache.
+      <!-- Cursos SENAC -->
+      <section class="senac-section">
+        <h2 class="section-title-medium">Cursos SENAC</h2>
+
+        <div class="senac-grid">
+          <div class="senac-card">
+            <p class="senac-title">Segurança em Servidores Linux</p>
+            <p class="senac-description">
+              Preparação para proteger e gerenciar servidores Linux. Inclui a instalação e configuração de segurança do sistema, além de serviços como DHCP, DNS, SSH e Apache.
             </p>
-            <p class="text-sm text-[#5c432a]">
-              Veja
-              <a
-                href="https://www.sp.senac.br/cursos-livres/curso-de-virtualizacao-com-windows-server-hyper-v"
-                target="_blank"
-                class="text-blue-600 underline"
-                >aqui</a
-              >
+            <p class="senac-link">
+              Veja <a href="https://www.sp.senac.br/cursos-livres/curso-de-virtualizacao-com-windows-server-hyper-v" target="_blank">aqui</a>
             </p>
           </div>
-          <div
-          class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-          >
-          <p class="text-lg font-semibold">Excel Avançado I - Funções</p>
-          <p class="text-sm text-[#5c432a]">
-            Aprimoramento de habilidades em Excel, focando em funções avançadas, tabelas dinâmicas, gráficos e análise de dados para otimização de tarefas administrativas.
-          </p>
-          
-          </div>
-          <div
-          class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-          >
-          <p class="text-lg font-semibold">Administração de Ubuntu Server</p>
-        <p class="text-sm text-[#5c432a]">
-          Instalação do sistema e pacotes, configuração de serviços como
-          DHCP, DNS, SSH e Apache, além de conceitos de redes e
-          administração de usuários.
-        </p>
-        <p class="text-sm text-[#5c432a]">
-          Veja
-          <a
-          href="https://www.sp.senac.br/cursos-livres/curso-de-administracao-do-ubuntu-server"
-          target="_blank"
-          class="text-blue-600 underline"
-          >aqui</a
-          >
-        </p>
-      </div>
-      <div
-      class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-      >
-      <p class="text-lg font-semibold">Administração de Windows Server</p>
-      <p class="text-sm text-[#5c432a]">
-        Abrange desde a instalação do sistema operacional até a
-        configuração de serviços essenciais como DHCP e DNS, além de
-        acesso remoto e máquinas virtuais.
-      </p>
-      <p class="text-sm text-[#5c432a]">
-        Veja
-        <a
-        href="https://www.sp.senac.br/cursos-livres/curso-de-virtualizacao-com-windows-server-hyper-v"
-        target="_blank"
-        class="text-blue-600 underline"
-        >aqui</a
-        >
-      </p>
-    </div>
-    <div
-    class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-    >
-    <p class="text-lg font-semibold">
-      Python II - Desenvolvendo Aplicações Web
-    </p>
-    <p class="text-sm text-[#5c432a]">
-      O curso inclui o uso de Django e a integração com banco de dados
-      para formar projetos full-stack.
-    </p>
-    <p class="text-sm text-[#5c432a]">
-      Veja
-      <a
-      href="https://www.sp.senac.br/cursos-livres/curso-de-python-ii-desenvolvendo-aplicacoes-web"
-      target="_blank"
-      class="text-blue-600 underline"
-      >aqui</a
-      >
-    </p>
-  </div>
-  <div
-  class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-  >
-  <p class="text-lg font-semibold">Desenvolvedor Web Front-End 2 JavaScript</p>
-  <p class="text-sm text-[#5c432a]">
-      Desenvolvimento de aplicações web interativas utilizando JavaScript, incluindo manipulação do DOM, eventos e integração com APIs.
-    </p>
-    
-  </div>
-  <div
-  class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-  >
-  <p class="text-lg font-semibold">
-              Virtualização com Windows Server: Hyper-V
-            </p>
-            <p class="text-sm text-[#5c432a]">
-              Instrui na criação e gerenciamento de máquinas virtuais,
-              permitindo a otimização de recursos e ambientes de teste e
-              produção eficientes.
-            </p>
-            <p class="text-sm text-[#5c432a]">
-              Veja
-              <a
-              href="https://www.sp.senac.br/cursos-livres/curso-de-virtualizacao-com-windows-server-hyper-v"
-              target="_blank"
-              class="text-blue-600 underline"
-              >aqui</a
-              >
+          <div class="senac-card">
+            <p class="senac-title">Excel Avançado I - Funções</p>
+            <p class="senac-description">
+              Aprimoramento de habilidades em Excel, focando em funções avançadas, tabelas dinâmicas, gráficos e análise de dados para otimização de tarefas administrativas.
             </p>
           </div>
-          <div
-            class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-            >
-            <p class="text-lg font-semibold">
-              Assistente de Tecnologias da Informação
+          <div class="senac-card">
+            <p class="senac-title">Administração de Ubuntu Server</p>
+            <p class="senac-description">
+              Instalação do sistema e pacotes, configuração de serviços como DHCP, DNS, SSH e Apache, além de conceitos de redes e administração de usuários.
             </p>
-            <p class="text-sm text-[#5c432a]">
-              Desenvolve habilidades para suporte técnico, manutenção de
-              sistemas e atendimento a usuários, essencial para a infraestrutura
-              de TI.
-            </p>
-            <p class="text-sm text-[#5c432a]">
-              Veja
-              <a href="#" target="_blank" class="text-blue-600 underline"
-              >aqui</a
-              >
+            <p class="senac-link">
+              Veja <a href="https://www.sp.senac.br/cursos-livres/curso-de-administracao-do-ubuntu-server" target="_blank">aqui</a>
             </p>
           </div>
-          <div
-            class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-          >
-            <p class="text-lg font-semibold">Manutenção de Microcomputadores </p>
-            <p class="text-sm text-[#5c432a]">
+          <div class="senac-card">
+            <p class="senac-title">Administração de Windows Server</p>
+            <p class="senac-description">
+              Abrange desde a instalação do sistema operacional até a configuração de serviços essenciais como DHCP e DNS, além de acesso remoto e máquinas virtuais.
+            </p>
+            <p class="senac-link">
+              Veja <a href="https://www.sp.senac.br/cursos-livres/curso-de-virtualizacao-com-windows-server-hyper-v" target="_blank">aqui</a>
+            </p>
+          </div>
+          <div class="senac-card">
+            <p class="senac-title">Python II - Desenvolvendo Aplicações Web</p>
+            <p class="senac-description">
+              O curso inclui o uso de Django e a integração com banco de dados para formar projetos full-stack.
+            </p>
+            <p class="senac-link">
+              Veja <a href="https://www.sp.senac.br/cursos-livres/curso-de-python-ii-desenvolvendo-aplicacoes-web" target="_blank">aqui</a>
+            </p>
+          </div>
+          <div class="senac-card">
+            <p class="senac-title">Desenvolvedor Web Front-End 2 JavaScript</p>
+            <p class="senac-description">
+              Desenvolvimento de aplicações web interativas utilizando JavaScript, incluindo manipulação do DOM, eventos e integração com APIs.
+            </p>
+          </div>
+          <div class="senac-card">
+            <p class="senac-title">Virtualização com Windows Server: Hyper-V</p>
+            <p class="senac-description">
+              Instrui na criação e gerenciamento de máquinas virtuais, permitindo a otimização de recursos e ambientes de teste e produção eficientes.
+            </p>
+            <p class="senac-link">
+              Veja <a href="https://www.sp.senac.br/cursos-livres/curso-de-virtualizacao-com-windows-server-hyper-v" target="_blank">aqui</a>
+            </p>
+          </div>
+          <div class="senac-card">
+            <p class="senac-title">Assistente de Tecnologias da Informação</p>
+            <p class="senac-description">
+              Desenvolve habilidades para suporte técnico, manutenção de sistemas e atendimento a usuários, essencial para a infraestrutura de TI.
+            </p>
+            <p class="senac-link">
+              Veja <a href="#" target="_blank">aqui</a>
+            </p>
+          </div>
+          <div class="senac-card">
+            <p class="senac-title">Manutenção de Microcomputadores</p>
+            <p class="senac-description">
               Capacitação para diagnosticar e reparar falhas em hardware, além de manutenção preventiva e corretiva de computadores, substituição de componentes.
             </p>
-        
           </div>
-
-          <div
-          class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-          >
-          <p class="text-lg font-semibold">CCNAv7 Introduction to Networks - CCNA 1</p>
-          <p class="text-sm text-[#5c432a]">
-            Fundamentos de redes de computadores, incluindo modelos OSI e TCP/IP, endereçamento IP, roteamento e comutação. Preparação para certificação CCNA. (Somente o curso, sem a certificação).
-          </p>
-          
-        </div>
+          <div class="senac-card">
+            <p class="senac-title">CCNAv7 Introduction to Networks - CCNA 1</p>
+            <p class="senac-description">
+              Fundamentos de redes de computadores, incluindo modelos OSI e TCP/IP, endereçamento IP, roteamento e comutação. Preparação para certificação CCNA. (Somente o curso, sem a certificação).
+            </p>
+          </div>
         </div>
       </section>
-      
-      <section class="mb-12">
-        <h2 class="text-3xl font-bold text-[#5c432a] mb-6">DIO Courses</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
-          <div
-            class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-          >
-            <p class="text-lg font-semibold">
-              Santander Bootcamp Cibersegurança
-            </p>
-            <p class="text-sm text-[#5c432a]">
+
+      <!-- Cursos DIO -->
+      <section class="dio-section">
+        <h2 class="section-title-medium">Cursos DIO</h2>
+
+        <div class="dio-grid">
+          <div class="dio-card">
+            <p class="dio-title">Santander Bootcamp Cibersegurança</p>
+            <p class="dio-description">
               O programa Santander Bootcamp Cibersegurança capacita os participantes com habilidades essenciais em segurança da informação.
             </p>
-            <p class="text-sm text-[#5c432a]">
-              
-            </p>
           </div>
-          <div
-            class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-          >
-            <p class="text-lg font-semibold">Formação HTML Web Developer</p>
-            <p class="text-sm text-[#5c432a]">
+          <div class="dio-card">
+            <p class="dio-title">Formação HTML Web Developer</p>
+            <p class="dio-description">
               A Formação HTML Web Developer da DIO foca na construção de aplicações web utilizando HTML, proporcionando uma base sólida para uma carreira em desenvolvimento web.
             </p>
-            <p class="text-sm text-[#5c432a]">
-              
+          </div>
+          <div class="dio-card">
+            <p class="dio-title">Formação Linux Fundamentals</p>
+            <p class="dio-description">
+              A Formação Linux Fundamentals aborda os conceitos básicos do sistema operacional Linux, incluindo instalação, comandos de terminal e tarefas essenciais de administração de sistemas.
             </p>
           </div>
-          <div
-            class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-          >
-            <p class="text-lg font-semibold">Formação Linux Fundamentals</p>
-            <p class="text-sm text-[#5c432a]">
-              A Formação Linux Fundamentals aborda os conceitos básicos do sistema operacional Linux, incluindo instalação, comandos de terminal e tarefas essenciais de administração de sistemas, fundamentais para profissionais de TI.
-            </p>
-            <p class="text-sm text-[#5c432a]">
-              
+          <div class="dio-card">
+            <p class="dio-title">Formação Lógica de Programação</p>
+            <p class="dio-description">
+              A Formação Lógica de Programação proporciona uma compreensão sólida dos conceitos fundamentais de programação, permitindo o desenvolvimento de habilidades de resolução de problemas.
             </p>
           </div>
-          <div
-            class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-          >
-            <p class="text-lg font-semibold">Formação Lógica de Programação</p>
-            <p class="text-sm text-[#5c432a]">
-              A Formação Lógica de Programação proporciona uma compreensão sólida dos conceitos fundamentais de programação, permitindo o desenvolvimento de habilidades de resolução de problemas e escrita de código eficiente em diversas linguagens.
-            </p>
-            <p class="text-sm text-[#5c432a]">
-              
-            </p>
-          </div>
-          <div
-            class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-          >
-            <p class="text-lg font-semibold">
-              Formação Cybersecurity Specialist
-            </p>
-            <p class="text-sm text-[#5c432a]">
+          <div class="dio-card">
+            <p class="dio-title">Formação Cybersecurity Specialist</p>
+            <p class="dio-description">
               A Formação Cybersecurity Specialist prepara profissionais para defenderem contra ameaças cibernéticas, com conhecimento aprofundado em protocolos de segurança, gestão de riscos e técnicas de hacking ético.
             </p>
-            <p class="text-sm text-[#5c432a]">
-            </p>
           </div>
-          <div
-            class="bg-white p-4 rounded-lg shadow border-l-4 border-[#5c432a]"
-          >
-            <p class="text-lg font-semibold">
-              Bootcamp Excel com Inteligência Artificial
-            </p>
-            <p class="text-sm text-[#5c432a]">
+          <div class="dio-card">
+            <p class="dio-title">Bootcamp Excel com Inteligência Artificial</p>
+            <p class="dio-description">
               O Bootcamp Excel com Inteligência Artificial capacita os participantes a utilizarem recursos avançados do Excel, e integração com ferramentas de IA para otimizar análises de dados e automação de tarefas.
-            </p>
-            <p class="text-sm text-[#5c432a]">
             </p>
           </div>
         </div>
       </section>
-    </main>
 
-    <div id="main-footer"></div>
+    </div>
+  </main>
 
-    <script src="../scripts/header.js"></script>
-    <script src="../scripts/footer.js"></script>
-  </body>
+  <div id="main-footer"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+  <script src="../scripts/header.js"></script>
+  <script src="../scripts/footer.js"></script>
+</body>
 </html>

@@ -4,149 +4,169 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Artigos e eBooks</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../styles/style.css">   
+  <link rel="stylesheet" href="../styles/publications.css"> 
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-[#f4efe6] text-[#3e2f1c]">
+<body>
 
   <div id="main-header"></div>
 
-  <!-- Conteúdo -->
-  <main class="max-w-6xl mx-auto px-6 py-10">
-    <section class="mb-12">
-      <h2 class="text-3xl font-bold text-[#5c432a] mb-4">eBooks lançados</h2>
-      <div class="space-y-6">
-        
-        <!-- eBook 1 -->
-        <div class="bg-white rounded-lg p-6 shadow border-l-4 border-[#5c432a] flex items-center gap-6">
-          <!-- Imagem da capa -->
-          <img 
-            src="../images/infoSec.jpg"
-            alt="Capa do ebook Segurança da Informação: O Grimório do Cyber Aventureiro"
-            class="w-24 h-32 object-cover rounded shadow"
-          >
-          <!-- Informações do ebook -->
-          <div>
-            <h3 class="text-xl font-semibold text-[#3e2f1c]">Segurança da Informação: O Grimório do Cyber Aventureiro</h3>
-            <p class="mt-2">
-              Um eBook prático e direto, com linguagem simples voltada para o público administrativo de empresas. Explica ataques, como evitá-los e conceitos de Segurança da Informação.
-            </p>
-            <a href="https://github.com/TheEddu/EbooksProject/blob/main/Ebooks/Seguranca_da_Informacao_Grimorio_do_Cyber_Aventureiro.pdf" target="_blank" class="inline-block mt-2 text-[#5c432a] font-medium hover:underline">
-              Ver no GitHub
-            </a>
-          </div>
-        </div>
+  <!-- Conteúdo Principal -->
+  <main class="publications-main">
+    <div class="container">
 
-        <!-- eBook 2 -->
-        <div class="bg-white rounded-lg p-6 shadow border-l-4 border-[#5c432a] flex items-center gap-6">
-          <!-- Imagem da capa -->
-          <img 
-            src="../images/senhasSeguras.jpg"
-            alt="Capa do ebook Forjando Senhas Seguras"
-            class="w-24 h-32 object-cover rounded shadow"
-          >
-          <!-- Informações do ebook -->
-          <div>
-            <h3 class="text-xl font-semibold text-[#3e2f1c]">Forjando Senhas Seguras</h3>
-            <p class="mt-2">
-              Importancia das sehas fortes e ataques possiveis, acompanhado de um projeto prático de um gerador de senhas seguras.
-            </p>
-            <a href="https://github.com/TheEddu/EbooksProject/blob/main/Ebooks/Forjando_Senhas_Seguras.pdf" target="_blank" class="inline-block mt-2 text-[#5c432a] font-medium hover:underline">
-              Ver no GitHub
-            </a>
-          </div>
-        </div>
+      <!-- Seção de eBooks -->
+      <section class="ebooks-section">
+        <h2 class="section-title-large">eBooks lançados</h2>
 
-        <!-- eBook 3 -->
-        <div class="bg-white rounded-lg p-6 shadow border-l-4 border-[#5c432a] flex items-center gap-6">
-          <!-- Imagem da capa -->
-          <img 
-            src="../images/conhecendoECombatendoEssesInimigos.jpg"
-            alt="Capa do ebook Malware"
-            class="w-24 h-32 object-cover rounded shadow"
-          >
-          <!-- Informações do ebook -->
-          <div>
-            <h3 class="text-xl font-semibold text-[#3e2f1c]">Malware: Conhecendo e Combatendo esses Inimigos</h3>
-            <p class="mt-2">
-              Apresentação de diversso tipos de malware, como eles funcionam e como se proteger.
-            </p>
-            <a href="https://github.com/TheEddu/EbooksProject/blob/main/Ebooks/Conhecendo_e_Combatendo_esses_Inimigos.pdf" target="_blank" class="inline-block mt-2 text-[#5c432a] font-medium hover:underline">
-              Ver no GitHub
-            </a>
-          </div>
-        </div>
+        <div class="ebooks-list">
 
-        <!-- eBook 4 -->
-        <div class="bg-white rounded-lg p-6 shadow border-l-4 border-[#5c432a] flex items-center gap-6">
-          <!-- Imagem da capa -->
-          <img 
-            src="../images/kaizen.jpg"
-            alt="Capa do ebook Kaizen"
-            class="w-24 h-32 object-cover rounded shadow"
-          >
-          <!-- Informações do ebook -->
-          <div>
-            <h3 class="text-xl font-semibold text-[#3e2f1c]">Kaizen: A Filosofia Japonesa de melhoria Contínua para o Guerreiro Digital</h3>
-            <p class="mt-2">
-              O que é Kaizen e como aplicar essa filosofia no dia a dia, tanto na vida pessoal quanto profissional.
-            </p>
-            <a href="https://github.com/TheEddu/EbooksProject/blob/main/Ebooks/kaizen.pdf" target="_blank" class="inline-block mt-2 text-[#5c432a] font-medium hover:underline">
-              Ver no GitHub
-            </a>
-          </div>
-        </div>
+          <!-- eBook 1 -->
+          <article class="ebook-card">
+            <img 
+              src="../images/infoSec.jpg"
+              alt="Capa do ebook Segurança da Informação: O Grimório do Cyber Aventureiro"
+              class="ebook-cover"
+            >
+            <div class="ebook-info">
+              <h3 class="ebook-title">Segurança da Informação: O Grimório do Cyber Aventureiro</h3>
+              <p class="ebook-description">
+                Um eBook prático e direto, com linguagem simples voltada para o público administrativo de empresas. Explica ataques, como evitá-los e conceitos de Segurança da Informação.
+              </p>
+              <a href="https://github.com/TheEddu/EbooksProject/blob/main/Ebooks/Seguranca_da_Informacao_Grimorio_do_Cyber_Aventureiro.pdf" 
+                 target="_blank" 
+                 class="ebook-link">
+                Ver no GitHub →
+              </a>
+            </div>
+          </article>
 
-        <!-- eBook 5 -->
-        <div class="bg-white rounded-lg p-6 shadow border-l-4 border-[#5c432a] flex items-center gap-6">
-          <!-- Imagem da capa -->
-          <img 
-            src="../images/modoAnonimo.jpg"
-            alt="Capa do ebook Modo Anônimo"
-            class="w-24 h-32 object-cover rounded shadow"
-          >
-          <!-- Informações do ebook -->
-          <div>
-            <h3 class="text-xl font-semibold text-[#3e2f1c]">Modo Anônimo: É Anônimo Mesmo?</h3>
-            <p class="mt-2">
-              Como o modo anônimo funciona e será que ele realmente é anônimo? O que acontece com os dados do usuário quando ele navega na internet usando esse modo?
-            </p>
-            <a href="https://github.com/TheEddu/EbooksProject/blob/main/Ebooks/modo_anonimo.pdf" target="_blank" class="inline-block mt-2 text-[#5c432a] font-medium hover:underline">
-              Ver no GitHub
-            </a>
-          </div>
-        </div>
+          <!-- eBook 2 -->
+          <article class="ebook-card">
+            <img 
+              src="../images/senhasSeguras.jpg"
+              alt="Capa do ebook Forjando Senhas Seguras"
+              class="ebook-cover"
+            >
+            <div class="ebook-info">
+              <h3 class="ebook-title">Forjando Senhas Seguras</h3>
+              <p class="ebook-description">
+                Importância das senhas fortes e ataques possíveis, acompanhado de um projeto prático de um gerador de senhas seguras.
+              </p>
+              <a href="https://github.com/TheEddu/EbooksProject/blob/main/Ebooks/Forjando_Senhas_Seguras.pdf" 
+                 target="_blank" 
+                 class="ebook-link">
+                Ver no GitHub →
+              </a>
+            </div>
+          </article>
 
-        <!-- eBook 6 -->
-        <div class="bg-white rounded-lg p-6 shadow border-l-4 border-[#5c432a] flex items-center gap-6">
-          <!-- Imagem da capa -->
-          <img 
-            src="../images/engenhariaSocial.jpg"
-            alt="Capa do ebook Engenharia Social"
-            class="w-24 h-32 object-cover rounded shadow"
-          >
-          <!-- Informações do ebook -->
-          <div>
-            <h3 class="text-xl font-semibold text-[#3e2f1c]">Engenharia Social: Como Cortar as Ameaças</h3>
-            <p class="mt-2">
-              O que fazer quando o ataque não é digital, mas mental?
-            </p>
-            <a href="https://github.com/TheEddu/EbooksProject/blob/main/Ebooks/engenharia_Social.pdf" target="_blank" class="inline-block mt-2 text-[#5c432a] font-medium hover:underline">
-              Ver no GitHub
-            </a>
-          </div>
-        </div>        
-    </section>
-    
-    <section>
-      <h2 class="text-3xl font-bold text-[#5c432a] mb-4">Meus Artigos ✍️ </h2>
-      <p class="mb-4">Para artigos completos e organizados, visite meu site pessoal:</p>
-      <a href="https://theeddu.github.io/Cyber-Blog/" target="_blank" class="inline-block bg-[#5c432a] text-white px-4 py-2 rounded hover:bg-[#3e2f1c] transition">Acessar site de artigos</a>
-      <p class="text-gray-700 mt-4 text-base italic">Se por algum motivo acontecer um erro e os Ebooks não forem exibidos, o conteúdo está disponivel em forma de artigo nesse link.</p>
-    </section>
+          <!-- eBook 3 -->
+          <article class="ebook-card">
+            <img 
+              src="../images/conhecendoECombatendoEssesInimigos.jpg"
+              alt="Capa do ebook Malware: Conhecendo e Combatendo esses Inimigos"
+              class="ebook-cover"
+            >
+            <div class="ebook-info">
+              <h3 class="ebook-title">Malware: Conhecendo e Combatendo esses Inimigos</h3>
+              <p class="ebook-description">
+                Apresentação de diversos tipos de malware, como eles funcionam e como se proteger.
+              </p>
+              <a href="https://github.com/TheEddu/EbooksProject/blob/main/Ebooks/Conhecendo_e_Combatendo_esses_Inimigos.pdf" 
+                 target="_blank" 
+                 class="ebook-link">
+                Ver no GitHub →
+              </a>
+            </div>
+          </article>
+
+          <!-- eBook 4 -->
+          <article class="ebook-card">
+            <img 
+              src="../images/kaizen.jpg"
+              alt="Capa do ebook Kaizen"
+              class="ebook-cover"
+            >
+            <div class="ebook-info">
+              <h3 class="ebook-title">Kaizen: A Filosofia Japonesa de melhoria Contínua para o Guerreiro Digital</h3>
+              <p class="ebook-description">
+                O que é Kaizen e como aplicar essa filosofia no dia a dia, tanto na vida pessoal quanto profissional.
+              </p>
+              <a href="https://github.com/TheEddu/EbooksProject/blob/main/Ebooks/kaizen.pdf" 
+                 target="_blank" 
+                 class="ebook-link">
+                Ver no GitHub →
+              </a>
+            </div>
+          </article>
+
+          <!-- eBook 5 -->
+          <article class="ebook-card">
+            <img 
+              src="../images/modoAnonimo.jpg"
+              alt="Capa do ebook Modo Anônimo: É Anônimo Mesmo?"
+              class="ebook-cover"
+            >
+            <div class="ebook-info">
+              <h3 class="ebook-title">Modo Anônimo: É Anônimo Mesmo?</h3>
+              <p class="ebook-description">
+                Como o modo anônimo funciona e será que ele realmente é anônimo? O que acontece com os dados do usuário quando ele navega na internet usando esse modo?
+              </p>
+              <a href="https://github.com/TheEddu/EbooksProject/blob/main/Ebooks/modo_anonimo.pdf" 
+                 target="_blank" 
+                 class="ebook-link">
+                Ver no GitHub →
+              </a>
+            </div>
+          </article>
+
+          <!-- eBook 6 -->
+          <article class="ebook-card">
+            <img 
+              src="../images/engenhariaSocial.jpg"
+              alt="Capa do ebook Engenharia Social: Como Cortar as Ameaças"
+              class="ebook-cover"
+            >
+            <div class="ebook-info">
+              <h3 class="ebook-title">Engenharia Social: Como Cortar as Ameaças</h3>
+              <p class="ebook-description">
+                O que fazer quando o ataque não é digital, mas mental?
+              </p>
+              <a href="https://github.com/TheEddu/EbooksProject/blob/main/Ebooks/engenharia_Social.pdf" 
+                 target="_blank" 
+                 class="ebook-link">
+                Ver no GitHub →
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Seção de Artigos -->
+      <section class="articles-section">
+        <h2 class="section-title-medium">Meus Artigos ✍️</h2>
+        <p class="articles-text">
+          Para artigos completos e organizados, visite meu site pessoal:
+        </p>
+        <a href="https://theeddu.github.io/Cyber-Blog/" 
+           target="_blank" 
+           class="btn-primary articles-btn">
+          Acessar site de artigos
+        </a>
+        <p class="articles-note">
+          Se por algum motivo acontecer um erro e os eBooks não forem exibidos, o conteúdo está disponível em forma de artigo nesse link.
+        </p>
+      </section>
+
+    </div>
   </main>
 
   <div id="main-footer"></div>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
   <script src="../scripts/header.js"></script>
   <script src="../scripts/footer.js"></script>
 </body>

@@ -1,357 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projetos</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../styles/style.css">   
+  <link rel="stylesheet" href="../styles/projects.css">  
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-[#f4efe6] text-[#3e2f1c]">
+<body>
 
   <div id="main-header"></div>
 
-    <!-- Seção de Projetos -->
-  <section class="py-20 px-6 bg-[#fdfaf5]">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-4xl font-bold text-center mb-12 text-[#3e2f1c]">Projetos</h2>
+  <!-- Seção de Projetos -->
+<section class="projects-section">
+  <div class="container">
+    <h2 class="section-title-large text-center">Projetos</h2>
 
-      <div class="grid md:grid-cols-2 gap-8">
-        <!-- Projeto Portfolio de Labs -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Portfolio de Labs</h3>
-          <img 
-            src="../images/projects/portfolioLabs.png"
-            alt="Imagem do projeto Portfolio de Labs"
-            class="w-full h-max object-cover rounded shadow"
-          >
-          <p class="text-[#5c432a] mb-4">
-            Projeto pessoal para compartilhar labs resolvidos por mim.
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Labs organizados e explicados</li>
-            <li>Visualização e interação intuitiva</li>
-          </ul>
-          <a href="https://github.com/TheEddu/Portfolio-Labs" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-          <br>
-          <a href="https://theeddu.github.io/Portfolio-Labs/" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Page →</a>
-        </div>
+    <!-- Projetos Principais -->
+    <div class="featured-projects">
+      <h3 class="subsection-title text-center">Projetos Principais</h3>
 
-        <!-- Projeto Ebooks -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Ebooks</h3>
-          <img 
-            src="../images/projects/ebooks.png"
-            alt="Imagem do projeto Ebooks"
-            class="w-full h-max object-cover rounded shadow"
-          >
-          <p class="text-[#5c432a] mb-4">
-            Projeto pessoal para compartilhar meus ebooks.
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Ebooks escritos por mim</li>
-            <li>Visualmente simples e interativo</li>
-          </ul>
-          <a href="https://github.com/TheEddu/EbooksProject" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-          <br>
-          <a href="https://theeddu.github.io/EbooksProject/" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Page →</a>
-        </div>
+      <div class="featured-grid">
 
-        <!-- Projeto Upgrading Mind -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Upgrading Mind</h3>
-          <img 
-            src="../images/projects/UpgradingMind.png"
-            alt="Imagem do projeto Upgrading Mind"
-            class="w-full h-max object-cover rounded shadow"
-          >
-          <p class="text-[#5c432a] mb-4">
-            Projeto educativo e didático para compartilhar conteúdo e ensinar inglês
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Conteúdos didáticos preparados por mim</li>
-          </ul>
-          <a href="https://github.com/TheEddu/UpgradingMind" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-          <br>
-          <a href="https://theeddu.github.io/UpgradingMind/" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Page →</a>
-        </div>
+        <!-- Projeto Principal 1: Cyber Blog -->
+        <article class="featured-project-card">
+          <div class="featured-media">
+            <img src="../images/projects/cyberBlog.png" alt="Demo do Cyber Blog" class="featured-image">
+            <!-- <img src="../images/projects/cyberBlog-demo.gif" alt="Demo do Cyber Blog" class="featured-image"> -->
+          </div>
+          <div class="featured-content">
+            <h3 class="project-title-large">Cyber Blog</h3>
+            <p class="project-description">
+              Blog pessoal dedicado a artigos aprofundados sobre diversos temas, com foco em conteúdo didático e acessível.
+            </p>
+            <ul class="project-features">
+              <li>Artigos originais com explicações práticas</li>
+              <li>Visualmente simples e interativo</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/TheEddu/Cyber-Blog" target="_blank" class="project-link">Repositório →</a>
+              <a href="https://theeddu.github.io/Cyber-Blog/" target="_blank" class="project-link">Demo →</a>
+            </div>
+          </div>
+        </article>
 
-        <!-- Projeto Cyber Blog -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Cyber Blog</h3>
-          <img 
-            src="../images/projects/cyberBlog.png"
-            alt="Imagem do projeto Cyber Blog"
-            class="w-full h-max object-cover rounded shadow"
-          >
-          <p class="text-[#5c432a] mb-4">
-            Projeto pessoal para compartilhar meus artigos.
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Artigos escritos por mim</li>
-            <li>Visualmente simples e interativo</li>
-          </ul>
-          <a href="https://github.com/TheEddu/EbooksProject" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-          <br>
-          <a href="https://theeddu.github.io/EbooksProject/" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Page →</a>
-        </div>
-
-        <!-- Projeto Gerenciador de Calorias -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Gerenciador de Calorias</h3>
-          <img 
-            src="../images/projects/calorias.png"
-            alt="Imagem do projeto Gerenciador de Calorias"
-            class="w-full h-max object-cover rounded shadow"
-          >
-          <p class="text-[#5c432a] mb-4">
-            Este é um projeto de gerenciamento de calorias, onde podemos registrar refeições e acompanhar o valor calórico diário. Baseado em um projeto da FreeCodeCamp, implementei melhorias e adicionei funcionalidades extras, como gerar um relatório em PDF.
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Permite o registro de refeições e acompanhamento de calorias</li>
-            <li>Geração de relatórios em PDF</li>
-            <li>Visualmente simples e interativo</li>
-          </ul>
-          <a href="https://github.com/TheEddu/" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-          <br>
-          <a href="https://theeddu.github.io//" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Page →</a>
-        </div>
-
-        <!-- Projeto Relogio Rotina -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Relógio Rotina</h3>
-          <img
-            src="../images/projects/relogioRotina.jpg"
-            alt="Imagem do projeto Relógio Rotina"
-            class="w-full h-max object-cover rounded shadow"
-          >
-          <p class="text-[#5c432a] mb-4">
-            Projeto front-end para ajudar na organização das tarefas diárias com base em cores.
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Relógio e tabela de atividades</li>
-            <li>Mini player do youtube para ouvir enquanto estuda</li>
-            <li>Visualmente simples</li>
-          </ul>
-          <a href="https://github.com/TheEddu/RelogioRotina" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-        </div>
-
-        <!-- Projeto Painel de Monitoramento -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Painel de Monitoramento</h3>
-          <img 
-            src="../images/projects/monitoramento.png"
-            alt="Imagem do projeto Painel de Monitoramento"
-            class="w-full h-max object-cover rounded shadow"
-          >
-          <p class="text-[#5c432a] mb-4">
-            Projeto para monitoramento de serviços do sistema.
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Monitoramento sem precisar enviar comandos</li>
-            <li>Visualmente simples</li>
-          </ul>
-          <a href="https://github.com/TheEddu/monitor-dashboard" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-        </div>
-
-        <!-- Projeto RPG Arena -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Projeto RPG Arena</h3>
-          <img 
-            src="../images/projects/RPGArema.png"
-            alt="Imagem do projeto Projeto RPG Arena"
-            class="w-full h-max object-cover rounded shadow"
-          >
-          <p class="text-[#5c432a] mb-4">
-            O RPG Arena é um projeto front-end interativo em JavaScript que simula combates por turnos entre personagens de RPG com habilidades distintas. Trata-se de um exercício de lógica, estruturação de código, organização modular e UX design para web.
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Simulação de combates por turnos</li>
-            <li>Personagens com habilidades distintas</li>
-            <li>Foco em lógica e estruturação de código</li>
-            <li>Separação entre dados e lógica</li>
-            <li>Uso de módulos JS (import/export)</li>
-
-          </ul>
-          <a href="https://github.com/TheEddu/PasswordGenerator" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-        </div>
-
-        <!-- Projeto Gerador de Senhas Seguras -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Gerador de Senhas Seguras</h3>
-          <img 
-            src="../images/projects/passwordGenerator.png"
-            alt="Imagem do projeto Gerador de Senhas Seguras"
-            class="w-full h-max object-cover rounded shadow"
-          >
-          <p class="text-[#5c432a] mb-4">
-            Aplicação full stack com Flask + Tailwind para gerar senhas seguras. Acompanhada de um e-book educativo sobre segurança digital e boas práticas.
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Customização de complexidade da senha</li>
-            <li>Design minimalista e acessível</li>
-            <li>Texto educacional sobre riscos reais</li>
-          </ul>
-          <a href="https://github.com/TheEddu/PasswordGenerator" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-        </div>
-
-        <!-- Projeto Linux Distros -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Linux Distros</h3>
-          <img 
-            src="../images/projects/linuxDistros.png"
-            alt="Imagem do projeto Linux Distros"
-            class="w-full h-max object-cover rounded shadow"
-          >
-
-          <p class="text-[#5c432a] mb-4">
-            Projeto de paginas informativas sobre distribuições Linux, com foco em educação e acessibilidade.
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Texto educacional sobre distros</li>
-            <li>Design minimalista e acessível</li>
-          </ul>
-          <a href="https://github.com/TheEddu/LinuxDistrosWebsite" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-          <br>
-          <a href="https://theeddu.github.io/LinuxDistrosWebsite/" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Page →</a>
-        </div>
-
-        <!-- Projeto SQL RPG -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Banco de Dados RPG</h3>
-          <img 
-            src="../images/projects/database.png"
-            alt="Imagem do projeto Banco de Dados RPG"
-            class="w-full h-max object-cover rounded shadow"
-          >
-
-          <p class="text-[#5c432a] mb-4">
-            Projeto didático para aprender SQL com tema de RPG. Criação de tabelas como Aventureiro, Guilda e Classe para simular relacionamentos reais e práticas de modelagem.
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Ideal para iniciantes em SQL</li>
-            <li>Mesmo conceito de aplicações reais</li>
-            <li>Expansível para consultas complexas</li>
-          </ul>
-          <a href="https://github.com/TheEddu/RPG_database" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-        </div>
-
-        <!-- Projeto SSH Panel -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">SSH Panel</h3>
-          <img 
-            src="../images/projects/sshPanel.png"
-            alt="Imagem do projeto SSH Panel"
-            class="w-full h-max object-cover rounded shadow"
-          >
-
-          <p class="text-[#5c432a] mb-4">
-            Projeto backend que permite conexão SSH a máquinas Linux para demonstrar automações e comandos remotos. Ideal para labs, aulas e simulações.
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Conecta a diferentes distros via VirtualBox</li>
-            <li>Organizado para escalabilidade</li>
-          </ul>
-          <a href="https://github.com/TheEddu/ssh-panel" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-        </div>
-
-        <!-- Projeto Criptografia -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Criptografia</h3>
-          <img 
-            src="../images/projects/criptografia.png"
-            alt="Imagem do projeto Criptografia"
-            class="w-full h-max object-cover rounded shadow"
-          >
-
-          <p class="text-[#5c432a] mb-4">
-            Projeto de criptografia, desenvolvido para fins de estudo e demonstração de conceitos básicos de cifragem/decifragem.
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Criptografia personalizavel</li>
-            <li>Design minimalista e acessível</li>
-          </ul>
-          <a href="https://github.com/TheEddu/Cryptography" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-        </div>
-
-        <!-- Projeto Login Page Vulneravel -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Login Page Vulneravel</h3>
-          <img 
-            src="../images/projects/loginPage.png"
-            alt="Imagem do projeto Login Page Vulneravel"
-            class="w-full h-max object-cover rounded shadow"
-          >
-
-          <p class="text-[#5c432a] mb-4">
-            Uma página de Login que é intencionalemente vulnerável a SQL Injection, com a versão corrigida do código, apenas para demonstração de vulneravilidade e fins didáticos.
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Correção de vulnerabilidade de forma prática</li>
-            <li>Demonstração de vulnerabilidade</li>
-          </ul>
-          <a href="https://github.com/TheEddu/LoginPage-Vulnerable" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-        </div>
-
-        <!-- Projeto Passive Recon Script -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Passive Recon Script</h3>
-          <p class="text-[#5c432a] mb-4">
-            Script em Bash que permite a coleta de informações sobre um endereço IP ou domínio fornecido pelo usuário.
-          </p>
-          <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li>Serve como um "acelerador" de ferramentas de recon.</li>
-            <li>O script executa uma série de comandos de rede para obter dados relevantes e salva os resultados em arquivos separados.</li>
-          </ul>
-          <a href="https://github.com/TheEddu/Passive-Recon-Script" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-        </div>
-
-        <!-- Projeto Hardening Filter -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Hardening Filter</h3>
-          <p class="text-[#5c432a] mb-4">
-            Projeto com filtro de boas práticas de hardening
-          </p>
-          <!-- <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li></li>
-            <li></li>
-          </ul> -->
-          <a href="https://github.com/TheEddu/hardening-filter-project" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-        </div>
-
-        <!-- Projeto Memory Game -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Memory Game</h3>
-          <p class="text-[#5c432a] mb-4">
-            Jogo da memória com Javascript
-          </p>
-          <!-- <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li></li>
-            <li></li>
-          </ul> -->
-          <a href="https://github.com/TheEddu/MemoryGame-DIO" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-        </div>
-
-        <!-- Projeto Cyber Quiz -->
-        <div class="bg-[#e5dcc5] rounded-2xl shadow-lg p-6 border border-[#c2b280]">
-          <h3 class="text-xl font-bold mb-2 text-[#3e2f1c]">Cyber Quiz</h3>
-          <p class="text-[#5c432a] mb-4">
-            Quiz sobre Cyber Segurança
-          </p>
-          <!-- <ul class="text-sm text-[#3e2f1c] list-disc ml-5 mb-4">
-            <li></li>
-            <li></li>
-          </ul> -->
-          <a href="https://github.com/TheEddu/CyberQuiz" target="_blank" class="inline-block mt-2 text-[#3e2f1c] font-semibold hover:underline">Repositório →</a>
-        </div>
+        <!-- Projeto Principal 2: Ebooks -->
+        <article class="featured-project-card">
+          <div class="featured-media">
+            <!-- <img src="../images/projects/ebooks-demo.gif" alt="Demo do projeto Ebooks" class="featured-image"> -->
+            <img src="../images/projects/ebooks.png" alt="Demo do projeto Ebooks" class="featured-image">
+          </div>
+          <div class="featured-content">
+            <h3 class="project-title-large">Ebooks</h3>
+            <p class="project-description">
+              Plataforma pessoal para compartilhar meus eBooks com navegação intuitiva e download de PDF.
+            </p>
+            <ul class="project-features">
+              <li>eBooks autorais</li>
+              <li>Interface responsiva e interativa</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/TheEddu/EbooksProject" target="_blank" class="project-link">Repositório →</a>
+              <a href="https://theeddu.github.io/EbooksProject/" target="_blank" class="project-link">Demo →</a>
+            </div>
+          </div>
+        </article>
 
       </div>
     </div>
-  </section>
-  
-  
-  <!-- Footer -->
+
+    <!-- Outros Projetos -->
+    <div class="other-projects">
+      <h3 class="subsection-title text-center">Outros Projetos</h3>
+
+      <div class="other-projects-grid">
+
+        <!-- Painel de Monitoramento -->
+        <article class="other-project-card">
+          <img src="../images/projects/monitoramento.png" alt="Painel de Monitoramento" class="other-project-image">
+          <h4 class="other-project-title">Painel de Monitoramento</h4>
+          <p class="other-project-description">Dashboard para monitoramento em tempo real de serviços do sistema, sem necessidade de comandos manuais.</p>
+          <a href="https://github.com/TheEddu/monitor-dashboard" target="_blank" class="project-link">Repositório →</a>
+        </article>
+
+        <!-- Criptografia -->
+        <article class="other-project-card">
+          <img src="../images/projects/criptografia.png" alt="Projeto Criptografia" class="other-project-image">
+          <h4 class="other-project-title">Criptografia</h4>
+          <p class="other-project-description">Ferramenta educativa para demonstração de algoritmos de cifragem e decifragem, com opções personalizáveis.</p>
+          <a href="https://github.com/TheEddu/Cryptography" target="_blank" class="project-link">Repositório →</a>
+        </article>
+
+        <!-- Login Page Vulnerável -->
+        <article class="other-project-card">
+          <img src="../images/projects/loginPage.png" alt="Login Page Vulnerável" class="other-project-image">
+          <h4 class="other-project-title">Login Page Vulnerável</h4>
+          <p class="other-project-description">Exemplo didático de página de login vulnerável a SQL Injection, com versão corrigida para ensino de segurança web.</p>
+          <a href="https://github.com/TheEddu/LoginPage-Vulnerable" target="_blank" class="project-link">Repositório →</a>
+        </article>
+
+        <!-- SSH Panel -->
+        <article class="other-project-card">
+          <img src="../images/projects/sshPanel.png" alt="SSH Panel" class="other-project-image">
+          <h4 class="other-project-title">SSH Panel</h4>
+          <p class="other-project-description">Painel web backend para gerenciamento remoto de conexões SSH a máquinas Linux virtuais, ideal para demonstrações, labs e ensino de automação.</p>
+          <a href="https://github.com/TheEddu/ssh-panel" target="_blank" class="project-link">Repositório →</a>
+        </article>
+
+      </div>
+    </div>
+  </div>
+</section>
   <div id="main-footer"></div>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
   <script src="../scripts/header.js"></script>
   <script src="../scripts/footer.js"></script>
 </body>
