@@ -1,18 +1,18 @@
 document.addEventListener('DOMContentLoaded', function () {
   const profileData = {
-    name: "The Eddu",
+    name: "Eduardo",
     description: 'Estudante autodidata e leitor assíduo',
     profile: './images/profile.jpg',
     websites: {
-      'Meus Artigos': 'https://theeddu.github.io/Cyber-Blog/',
-      'Meus Jogos': 'https://theeddu.github.io/TheEdduGames/'
+      'Github': 'https://github.com/TheEddu',
+      'Linkedin': 'https://www.linkedin.com/in/eduardo-s-b39896205/'
     },
     socials: {
       Github: 'https://github.com/TheEddu',
       TryHackMe: 'https://tryhackme.com/p/TheEddu',
       Linkedin: 'https://www.linkedin.com/in/eduardo-s-b39896205/'
     },
-    skills: ["Cybersecurity", "Linux", "Python", "Administração", "Excel", "Front-end", "Redes"]
+    skills: ["Cybersecurity", "Linux", "Administração", "Excel", "Redes"]
   };
 
   const profileCard = document.getElementById('profileCard');

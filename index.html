@@ -1,82 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="./styles/style.css">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
-  <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main-header"></div>
 
-  <div id="main-header"></div>
+    <!-- Hero / Apresentação -->
+    <section class="hero-section">
+      <div class="container">
+        <h1 class="hero-title">
+          Sempre em buscar de ser uma pessoa e um profissional melhor
+        </h1>
 
-  <!-- Hero / Apresentação -->
-  <section class="hero-section">
-    <div class="container">
-      <h1 class="hero-title">Transformando conhecimento em segurança digital</h1>
-      <p class="hero-text">
-        Sou apaixonado por Cybersecurity e desenvolvimento. Neste espaço você encontrará meus projetos, artigos e estudos voltados para proteger e educar no mundo digital.
-      </p>
-      <p class="hero-text">
-        Além da educação formal, também me dedico muito ao aprendizado autodidata, focando em construir meus próprios projetos práticos para aplicar o que aprendo.
-      </p>
-      <p class="hero-text">
-        Possuo experiência em suporte a usuários e administração, sou disciplinado, focado em alcançar o máximo de desenvolvimento pessoal e profissional. Tenho interesse em aprender novos idiomas, aprimorei minhas habilidades de conversação em inglês por meio de aulas práticas no Cambly. Tenho leituras e jogos como hobby.
-      </p>
-      <a href="./pages/projects.html" class="btn-primary">Ver Projetos</a>
-
-
-    </div>
-
-  </section>
-
-  <!-- Sobre mim -->
-  <section class="about-section">
-    <div class="container">
-      <div class="grid grid-2">
-        <div>
-          <h3 class="section-title">Quem sou eu?</h3>
-          <p class="section-text">
-            Sou formando em Segurança da Informação e venho me especializando como Pentester, com forte ética, dedicação e foco em aprendizado contínuo. Atuo com Linux, scripts Bash, Python, além de ferramentas de Pentest.
-          </p>
-          <p class="section-text">
-            Acredito no poder do conhecimento compartilhado e produzo conteúdos como e-books, artigos e ferramentas úteis para quem deseja entender e aplicar boas práticas de segurança no dia a dia.
-          </p>
-          <p class="section-text">
-            Também pratico com labs de hacking ético e desafios de segurança e escrevo relatórios sobre eles para documentar meu aprendizado.
-          </p>
-          <p class="section-text">
-            Fora da técnica, cultivo disciplina através de treino físico, leitura e criação de projetos reais. Estou sempre em busca de novos desafios e oportunidades para crescer.
-          </p>
-        </div>
-        <div class="profile-image-container">
-          <div id="profileCard" class="profile-card"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Seção de eBooks -->
-  <section class="publications-section">
-    <div class="container">
-      <div class="card">
-        <h2 class="card-title">eBooks</h2>
-        <p class="card-text">
-          Compartilho meus conhecimentos por meio de eBooks e artigos que abordam fundamentos de cibersegurança, e mais. Veja meus eBooks:
+        <p class="hero-text">
+          Eu sou um desenvolvedor Cyber Entusiasta, com paixão por automatizar
+          tarefas, criar interfaces eficientes e explorar sistemas (do front-end
+          ao shell).
         </p>
-        <a href="./pages/publications.html" class="btn-primary">eBooks</a>
+        <p class="hero-text">
+          Grande parte do meu aprendizado acontece de forma autodidata. Gosto de
+          construir projetos práticos para aplicar conceitos de programação,
+          Redes e infraestrutura Linux.
+        </p>
+        <p class="hero-text">
+          Também busco evolução contínua fora da tecnologia. Concluí um ciclo de
+          estudos de conversação em inglês com aulas práticas no Cambly, e
+          mantenho hábitos de leitura e aprendizado constante.
+        </p>
+        <a href="./pages/projects.html" class="btn-primary">Ver Projetos</a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <div id="main-footer"></div>
+    <!-- Sobre mim -->
+    <section class="about-section">
+      <div class="container">
+        <div class="grid grid-about">
+          <div>
+            <h3 class="section-title">Quem sou eu?</h3>
+            <p class="section-text">
+              Sou formando em Segurança da Informação e venho expandindo meus
+              estudos para Redes e Desenvolvimento.
+            </p>
+            <p class="section-text">
+              Acredito que a melhor forma de aprender tecnologia é construindo e
+              documentando. Então mantenho projetos, artigos técnicos e pequenos
+              experimentos onde registro descobertas, erros e soluções.
+            </p>
+            <p class="section-text">
+              Também sou curioso por temas como RPGs, literatura, animes e
+              comics, além de boas narrativas em jogos e visual novels.
+            </p>
+            <p class="section-text">
+              Acredito que curiosidade, disciplina e aprendizado contínuo são
+              fundamentais para evoluir tanto como profissional quanto como
+              pessoa.
+            </p>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
-  <script src="./scripts/header.js"></script>
-  <script src="./scripts/footer.js"></script>
-  <script src="./scripts/script.js"></script>
-</body>
+            <h3 class="section-title">Como eu aprendo?</h3>
+            <h4 class="section-text">
+              Meu método de aprendizado é baseado em:
+            </h4>
+
+            <ol class="section-list">
+              <li>
+                <strong>Estudar o conceito:</strong>
+                Antes de coemçar com a prática, busco entender a teoria por trás do assunto, para não ficar perdido. Leio artigos, assisto vídeos e faço cursos para ter uma base sobre conceito que quero aprender.
+              </li>
+              <li>
+                <strong>Construir um projeto prático:</strong>
+                  A melhor forma de aprender é colocando a mão na massa. Então, depois de entender a base, busco construir um projeto prático para colocar em prática o que aprendi. Isso me ajuda a fixar o conhecimento e a entender melhor as nuances do assunto.
+              </li>
+              <li>
+                <strong>Documentar o processo em relatórios:</strong>
+                  Para consolidar o aprendizado, gosto de documentar o processo em relatórios. Nesses relatórios, registro as etapas que segui, os erros que encontrei e como resolver esses erros. Isso serve para analisar o que aprendi e ter um registro para futuras consultas.
+              </li>
+            </ol>
+          </div>
+          <div class="profile-image-container">
+            <div id="profileCard" class="profile-card"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de eBooks -->
+    <section class="publications-section">
+      <div class="container">
+        <div class="card">
+          <h2 class="card-title">eBooks</h2>
+          <p class="card-text">
+            Compartilho meus conhecimentos por meio de eBooks e artigos que
+            abordam fundamentos de cibersegurança, e mais. Veja meus eBooks:
+          </p>
+          <a href="./pages/publications.html" class="btn-primary">eBooks</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="main-footer"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="./scripts/header.js"></script>
+    <script src="./scripts/footer.js"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>

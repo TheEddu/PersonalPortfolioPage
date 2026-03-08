@@ -58,7 +58,7 @@ h2, h3 {
 /* ===== Layout geral ===== */
 .container {
   max-width: 1280px;
-  margin: 100px;
+  margin: 0 auto 2rem;
   padding: 0 1.5rem;
 }
 
@@ -72,10 +72,20 @@ h2, h3 {
   grid-template-columns: 1fr;
 }
 
+.grid-about {
+  grid-template-columns: 1fr;
+}
+
 @media (min-width: 768px) {
   .grid-2 {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+  }
+
+  .grid-about {
+    grid-template-columns: 2fr 1fr;
+    align-items: flex-start;
+    gap: 3rem;
   }
 }
 
@@ -101,7 +111,7 @@ h2, h3 {
 }
 
 .about-section {
-  padding: 8rem;
+  padding: 3rem 0;
   background-color: var(--color-bg-medium);
 }
 
@@ -122,7 +132,7 @@ h2, h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem;
+  padding: 1.5rem;
 }
 
 .profile-card {
