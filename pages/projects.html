@@ -1,122 +1,248 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projetos</title>
-  <link rel="stylesheet" href="../styles/style.css">   
-  <link rel="stylesheet" href="../styles/projects.css">  
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
-  <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projetos</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/projects.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main-header"></div>
 
-  <div id="main-header"></div>
+    <!-- Seção de Projetos -->
+    <section class="projects-section">
+      <div class="container">
+        <h2 class="section-title-large text-center">Projetos</h2>
 
-  <!-- Seção de Projetos -->
-<section class="projects-section">
-  <div class="container">
-    <h2 class="section-title-large text-center">Projetos</h2>
+        <!-- Projetos Principais -->
+        <div class="featured-projects">
+          <h3 class="subsection-title text-center">Projetos Principais</h3>
 
-    <!-- Projetos Principais -->
-    <div class="featured-projects">
-      <h3 class="subsection-title text-center">Projetos Principais</h3>
+          <div class="featured-grid">
+            <!-- Projeto Principal 1: Cyber Blog -->
+            <article class="featured-project-card">
+              <div class="featured-media">
+                <img
+                  src="../images/projects/cyberBlog.png"
+                  alt="Demo do Cyber Blog"
+                  class="featured-image"
+                />
+                <!-- <img src="../images/projects/cyberBlog-demo.gif" alt="Demo do Cyber Blog" class="featured-image"> -->
+              </div>
+              <div class="featured-content">
+                <h3 class="project-title-large">Cyber Blog</h3>
+                <p class="project-description">
+                  Blog pessoal dedicado a artigos aprofundados sobre diversos
+                  temas, com foco em conteúdo didático e acessível.
+                </p>
+                <ul class="project-features">
+                  <li>Artigos originais com explicações práticas</li>
+                  <li>Visualmente simples e interativo</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/TheEddu/Cyber-Blog"
+                    target="_blank"
+                    class="project-link"
+                    >Repositório →</a
+                  >
+                  <a
+                    href="https://theeddu.github.io/Cyber-Blog/"
+                    target="_blank"
+                    class="project-link"
+                    >Demo →</a
+                  >
+                </div>
+              </div>
+            </article>
 
-      <div class="featured-grid">
-
-        <!-- Projeto Principal 1: Cyber Blog -->
-        <article class="featured-project-card">
-          <div class="featured-media">
-            <img src="../images/projects/cyberBlog.png" alt="Demo do Cyber Blog" class="featured-image">
-            <!-- <img src="../images/projects/cyberBlog-demo.gif" alt="Demo do Cyber Blog" class="featured-image"> -->
+            <!-- Projeto Principal 2: Ebooks -->
+            <article class="featured-project-card">
+              <div class="featured-media">
+                <!-- <img src="../images/projects/ebooks-demo.gif" alt="Demo do projeto Ebooks" class="featured-image"> -->
+                <img
+                  src="../images/projects/ebooks.png"
+                  alt="Demo do projeto Ebooks"
+                  class="featured-image"
+                />
+              </div>
+              <div class="featured-content">
+                <h3 class="project-title-large">Ebooks</h3>
+                <p class="project-description">
+                  Plataforma pessoal para compartilhar meus eBooks com navegação
+                  intuitiva e download de PDF.
+                </p>
+                <ul class="project-features">
+                  <li>eBooks autorais</li>
+                  <li>Interface responsiva e interativa</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/TheEddu/EbooksProject"
+                    target="_blank"
+                    class="project-link"
+                    >Repositório →</a
+                  >
+                  <a
+                    href="https://theeddu.github.io/EbooksProject/"
+                    target="_blank"
+                    class="project-link"
+                    >Demo →</a
+                  >
+                </div>
+              </div>
+            </article>
           </div>
-          <div class="featured-content">
-            <h3 class="project-title-large">Cyber Blog</h3>
-            <p class="project-description">
-              Blog pessoal dedicado a artigos aprofundados sobre diversos temas, com foco em conteúdo didático e acessível.
-            </p>
-            <ul class="project-features">
-              <li>Artigos originais com explicações práticas</li>
-              <li>Visualmente simples e interativo</li>
-            </ul>
-            <div class="project-links">
-              <a href="https://github.com/TheEddu/Cyber-Blog" target="_blank" class="project-link">Repositório →</a>
-              <a href="https://theeddu.github.io/Cyber-Blog/" target="_blank" class="project-link">Demo →</a>
-            </div>
-          </div>
-        </article>
+        </div>
 
-        <!-- Projeto Principal 2: Ebooks -->
-        <article class="featured-project-card">
-          <div class="featured-media">
-            <!-- <img src="../images/projects/ebooks-demo.gif" alt="Demo do projeto Ebooks" class="featured-image"> -->
-            <img src="../images/projects/ebooks.png" alt="Demo do projeto Ebooks" class="featured-image">
-          </div>
-          <div class="featured-content">
-            <h3 class="project-title-large">Ebooks</h3>
-            <p class="project-description">
-              Plataforma pessoal para compartilhar meus eBooks com navegação intuitiva e download de PDF.
-            </p>
-            <ul class="project-features">
-              <li>eBooks autorais</li>
-              <li>Interface responsiva e interativa</li>
-            </ul>
-            <div class="project-links">
-              <a href="https://github.com/TheEddu/EbooksProject" target="_blank" class="project-link">Repositório →</a>
-              <a href="https://theeddu.github.io/EbooksProject/" target="_blank" class="project-link">Demo →</a>
-            </div>
-          </div>
-        </article>
+        <!-- Outros Projetos -->
+        <div class="other-projects">
+          <h3 class="subsection-title text-center">Outros Projetos</h3>
 
+          <div class="other-projects-grid">
+            <!-- Painel de Monitoramento -->
+            <article class="other-project-card">
+              <img
+                src="../images/projects/monitoramento.png"
+                alt="Painel de Monitoramento"
+                class="other-project-image"
+              />
+              <h4 class="other-project-title">Painel de Monitoramento</h4>
+              <p class="other-project-description">
+                Dashboard para monitoramento em tempo real de serviços do
+                sistema, sem necessidade de comandos manuais.
+              </p>
+              <p class="other-project-description">Linguagem usada: PHP</p>
+              <a
+                href="https://github.com/TheEddu/monitor-dashboard"
+                target="_blank"
+                class="project-link"
+                >Repositório →</a
+              >
+            </article>
+
+            <!-- Criptografia -->
+            <article class="other-project-card">
+              <img
+                src="../images/projects/criptografia.png"
+                alt="Projeto Criptografia"
+                class="other-project-image"
+              />
+              <h4 class="other-project-title">Criptografia</h4>
+              <p class="other-project-description">
+                Ferramenta educativa para demonstração de algoritmos de cifragem
+                e decifragem, com opções personalizáveis.
+              </p>
+              <p class="other-project-description">
+                Linguagens usadas: Python e Javascript
+              </p>
+
+              <a
+                href="https://github.com/TheEddu/Cryptography"
+                target="_blank"
+                class="project-link"
+                >Repositório →</a
+              >
+            </article>
+
+            <!-- Login Page Vulnerável -->
+            <article class="other-project-card">
+              <img
+                src="../images/projects/loginPage.png"
+                alt="Login Page Vulnerável"
+                class="other-project-image"
+              />
+              <h4 class="other-project-title">Login Page Vulnerável</h4>
+              <p class="other-project-description">
+                Exemplo didático de página de login vulnerável a SQL Injection,
+                com versão corrigida para ensino de segurança web.
+              </p>
+              <p class="other-project-description">Linguagem usada: PHP</p>
+              <a
+                href="https://github.com/TheEddu/LoginPage-Vulnerable"
+                target="_blank"
+                class="project-link"
+                >Repositório →</a
+              >
+            </article>
+
+            <!-- SSH Panel -->
+            <article class="other-project-card">
+              <img
+                src="../images/projects/sshPanel.png"
+                alt="SSH Panel"
+                class="other-project-image"
+              />
+              <h4 class="other-project-title">SSH Panel</h4>
+              <p class="other-project-description">
+                Painel web backend para gerenciamento remoto de conexões SSH a
+                máquinas Linux virtuais, ideal para demonstrações, labs e ensino
+                de automação.
+              </p>
+              <p class="other-project-description">Linguagem usada: PHP</p>
+              <a
+                href="https://github.com/TheEddu/ssh-panel"
+                target="_blank"
+                class="project-link"
+                >Repositório →</a
+              >
+            </article>
+
+            <!-- Video Game Sales — SQL -->
+            <article class="other-project-card">
+              <h4 class="other-project-title">Video Game Sales — SQL</h4>
+              <p class="other-project-description">
+                Projeto de análise de vendas de videogames usando SQL, com
+                consultas para insights sobre tendências de mercado e desempenho
+                de jogos. Baseado em dataset público de vendas de videogames, o
+                projeto inclui consultas SQL para análise de dados, como vendas
+                por plataforma, gênero e região, além de visualizações, para
+                praticar a interpretação dos resultados.
+              </p>
+              <p class="other-project-description">Linguagem usada: SQL</p>
+              <a
+                href="https://github.com/TheEddu/SQL-Project-Video-Game-Sales"
+                target="_blank"
+                class="project-link"
+                >Repositório →</a
+              >
+            </article>
+
+            <!-- FIcha de Treino -->
+            <article class="other-project-card">
+              <img
+                src="../images/projects/fichaTreino.png"
+                alt="FIcha de Treino"
+                class="other-project-image"
+              />
+              <h4 class="other-project-title">Ficha de Treino</h4>
+              <p class="other-project-description">
+                Projeto de sistema de uma "ficha de treino" para academia, com
+                exercícios vindos de uma API pública, com um plano de treino. O
+                sistema inclui uma interface web para fácil acesso.
+              </p>
+              <p class="other-project-description">Linguagem usada: PHP</p>
+              <a
+                href="https://github.com/TheEddu/ficha-de-treino"
+                target="_blank"
+                class="project-link"
+                >Repositório →</a
+              >
+            </article>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <div id="main-footer"></div>
 
-    <!-- Outros Projetos -->
-    <div class="other-projects">
-      <h3 class="subsection-title text-center">Outros Projetos</h3>
-
-      <div class="other-projects-grid">
-
-        <!-- Painel de Monitoramento -->
-        <article class="other-project-card">
-          <img src="../images/projects/monitoramento.png" alt="Painel de Monitoramento" class="other-project-image">
-          <h4 class="other-project-title">Painel de Monitoramento</h4>
-          <p class="other-project-description">Dashboard para monitoramento em tempo real de serviços do sistema, sem necessidade de comandos manuais.</p>
-          <a href="https://github.com/TheEddu/monitor-dashboard" target="_blank" class="project-link">Repositório →</a>
-        </article>
-
-        <!-- Criptografia -->
-        <article class="other-project-card">
-          <img src="../images/projects/criptografia.png" alt="Projeto Criptografia" class="other-project-image">
-          <h4 class="other-project-title">Criptografia</h4>
-          <p class="other-project-description">Ferramenta educativa para demonstração de algoritmos de cifragem e decifragem, com opções personalizáveis.</p>
-          <a href="https://github.com/TheEddu/Cryptography" target="_blank" class="project-link">Repositório →</a>
-        </article>
-
-        <!-- Login Page Vulnerável -->
-        <article class="other-project-card">
-          <img src="../images/projects/loginPage.png" alt="Login Page Vulnerável" class="other-project-image">
-          <h4 class="other-project-title">Login Page Vulnerável</h4>
-          <p class="other-project-description">Exemplo didático de página de login vulnerável a SQL Injection, com versão corrigida para ensino de segurança web.</p>
-          <a href="https://github.com/TheEddu/LoginPage-Vulnerable" target="_blank" class="project-link">Repositório →</a>
-        </article>
-
-        <!-- SSH Panel -->
-        <article class="other-project-card">
-          <img src="../images/projects/sshPanel.png" alt="SSH Panel" class="other-project-image">
-          <h4 class="other-project-title">SSH Panel</h4>
-          <p class="other-project-description">Painel web backend para gerenciamento remoto de conexões SSH a máquinas Linux virtuais, ideal para demonstrações, labs e ensino de automação.</p>
-          <a href="https://github.com/TheEddu/ssh-panel" target="_blank" class="project-link">Repositório →</a>
-        </article>
-
-      </div>
-    </div>
-  </div>
-</section>
-  <div id="main-footer"></div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
-  <script src="../scripts/header.js"></script>
-  <script src="../scripts/footer.js"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="../scripts/header.js"></script>
+    <script src="../scripts/footer.js"></script>
+  </body>
 </html>
